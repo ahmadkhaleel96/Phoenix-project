@@ -39,20 +39,20 @@ function homePage (req,res){
 
 
 
-server.listen(PORT, () => console.log(`server listen to ${PORT} port`));
 
 
 
 
 
-// function handleError(error, response) {
-//     response.render('pages/error', { error: error });
-// }
-let message = "SORY YOU HAVE DO A MISTAKE"
-server.get('*', (req, res) => {
-    res.status(404).render('./pages/error', { 'message': message })
-});
-
-// client.connect()
-//     .then(() => {
-//     })//.catch(err => handleError(err));
+function handleError(error, response) {
+        response.render('pages/error', { error: error });
+    }
+    let message = "SORY YOU HAVE DO A MISTAKE"
+    server.get('*', (req, res) => {
+        res.status(404).render('./pages/error', { 'message': message })
+    });
+    
+    client.connect()
+        .then(() => {
+        server.listen(PORT, () => console.log(`server listen to ${PORT} port`));
+    }).catch(err => handleError(err));
