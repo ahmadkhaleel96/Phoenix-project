@@ -1,0 +1,30 @@
+{
+  "name": "phoenix-project",
+  "version": "0.0.1",
+  "description": "**Authors**:  1. Ahmad K. 2. Qusay H. 3. Rashid S. 4. Raed R.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoenix-Developers-Team/Phoenix-project.git"
+  },
+  "author": "Rashid S. & Qusai H. & Ahmad K. & Raed E.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phoenix-Developers-Team/Phoenix-project/issues"
+  },
+  "homepage": "https://github.com/Phoenix-Developers-Team/Phoenix-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.2",
+    "pg": "^7.17.0",
+    "superagent": "^5.2.1"
+  }
+}
