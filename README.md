@@ -24,5 +24,19 @@ using novel and movies APIs and database.
 ## Change Log
 no changes yet.
 
+## WireFrames 
+
+https://wiresketch.com/QYZkyNGk/newscreen
+
+## Domain Modeling
+
+https://wiresketch.com/kigoHNZm/newscreen
+
+## user stories 
+
+it is done using Trello the link of the Board:
+
+https://trello.com/b/8ReFrR3H/project-behind-the-script
+
 ## Credits and Collaborations
 in progress
