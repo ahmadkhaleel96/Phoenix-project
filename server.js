@@ -22,7 +22,7 @@ server.get('/', homePage);
 
 let welecomMessage = 'Hello people';
 function homePage (req,res){
-    res.render('pages/index',{shiap:welecomMessage})
+    res.render('pages/index',{welecomMessage:welecomMessage})
 }
 
 
